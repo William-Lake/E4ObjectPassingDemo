@@ -24,7 +24,7 @@ IEventBroker eventBroker;
 ```java
 eventBroker.post( "SendingClass/SentObject" , ObjectType object );
 ```
---NOTE: The 'topic' format is specific to '*/*'. Anything you'd like can be substituted before and after the forward slash '/', but it is required to include SOMETHING. There are of course exceptions to this rule and I am not the expert. Learn more from the [Eclipse IEventBroker API](http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fe4%2Fcore%2Fservices%2Fevents%2FIEventBroker.html), an [article on the Eclipse4/RCP/Event Model](https://wiki.eclipse.org/Eclipse4/RCP/Event_Model), [this Vogella tutorial](http://www.vogella.com/tutorials/Eclipse4EventSystem/article.html) on the Eclipse 4 Event System, or of course from checking out this repo. 
+--NOTE: The 'topic' format is specific to 'Something/Something'. Anything you'd like can be substituted before and after the forward slash '/', but it is required to include SOMETHING. There are of course exceptions to this rule and I am not the expert. Learn more from the [Eclipse IEventBroker API](http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fe4%2Fcore%2Fservices%2Fevents%2FIEventBroker.html), an [article on the Eclipse4/RCP/Event Model](https://wiki.eclipse.org/Eclipse4/RCP/Event_Model), [this Vogella tutorial](http://www.vogella.com/tutorials/Eclipse4EventSystem/article.html) on the Eclipse 4 Event System, or of course from checking out this repo. 
 
 
 #### Receiving
