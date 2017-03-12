@@ -1,5 +1,5 @@
 # E4ObjectPassingDemo 
-### A simple example of a passing object between Parts via the IEventBroker in an app built with the Eclipse E4 RCP.
+### A simple example of a passing an object between Parts via the IEventBroker in an app built with the Eclipse E4 RCP.
 
 ----------
 #### Main Page
