@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="E4ObjectPassingDemo" width="425" height="225">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_ddBS4AZlEeeJ_L0CmTdjYw" elementId="e4objectpassingdemo.partsashcontainer.1" containerData="" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_DnRnoAaLEeeJ_L0CmTdjYw" elementId="e4objectpassingdemo.partstack.0" containerData="" selectedElement="_fGPTcAZlEeeJ_L0CmTdjYw">
+        <children xsi:type="basic:Part" xmi:id="_fGPTcAZlEeeJ_L0CmTdjYw" elementId="e4objectpassingdemo.part.leftpart" containerData="" contributionURI="bundleclass://E4ObjectPassingDemo/parts.LeftPart" label="Left Part"/>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_E2-8AAaLEeeJ_L0CmTdjYw" elementId="e4objectpassingdemo.partstack.1" containerData="" selectedElement="_fk0s4AZlEeeJ_L0CmTdjYw">
+        <children xsi:type="basic:Part" xmi:id="_fk0s4AZlEeeJ_L0CmTdjYw" elementId="e4objectpassingdemo.part.rightpart" containerData="" contributionURI="bundleclass://E4ObjectPassingDemo/parts.RightPart" label="Right Part"/>
+      </children>
+    </children>
+  </children>
+</application:Application>
